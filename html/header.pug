@@ -1,6 +1,7 @@
 mixin select-item(item)
     .header__select-item
         span.header__select-item-text=item
+
 mixin custom-select(name)
     .header__select
         .header__select-header 
@@ -13,7 +14,21 @@ mixin custom-select(name)
             +select-item('Share Buttons')
             +select-item('Gallary Post')
             +select-item('Video Post')
+
 header.header
+    .header__mobile 
+        .header__mobile-top 
+            img.header__logo(src="../media/svg/Logotype.svg")
+            .header__close-btn
+                span.header__mobile-cross
+        .header__bottom_mobile
+            +custom-select("Demos")
+            +custom-select("Post")
+            +custom-select("Features")
+            +custom-select("Catigories")
+            +custom-select("Shop")
+            a.header__link(href="") Buy Now
+
     .header__top 
         .header__burger 
             span.header__burger-menu
