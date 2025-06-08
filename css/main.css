@@ -79,7 +79,7 @@ margin-left: 0.3125rem;
         width: 45%;
         margin: 0 5% 2rem 0;
     }
-    .main__card:nth-child(2) {
+    .main__card:nth-child(2n) {
         margin-right: 0;
     }
 } 
@@ -92,10 +92,10 @@ margin-left: 0.3125rem;
     .main__card {
         width: 25%;
     }
-    .main__card:nth-child(2) {
+    .main__card:nth-child(2n) {
         margin-right: 5%;
     }
-    .main__card:nth-child(3) {
+    .main__card:nth-child(3n) {
         margin-right: 0;
     }
 }

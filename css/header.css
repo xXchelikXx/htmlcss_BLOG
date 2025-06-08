@@ -116,24 +116,25 @@
     }
     .header__select {
         padding: 0.89rem 0;
-        border-bottom: solid #E9E9E9 0.05rem;
+        border-bottom: solid 0.05rem #E9E9E9 ;
         max-height: max-content;
     }
     .header__top {
         justify-content: space-between;
-        padding: 0 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .header__top_right {
         display: none;
     }
     .header__link {
-        margin-top: 0,89rem;
+        margin-top: 0.89rem;
     }
     .header__mobile {
         margin: 1.61rem 0 0 0;
         height: 100hv;
         width: 17.8rem;
-        border: solid #e9e9e9 0.05rem;
+        border: solid 0.05rem #e9e9e9 ;
         position: absolute;
         box-sizing: border-box;
         transition: 0.8s ease-in-out;
@@ -145,7 +146,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 0 1.6rem 1.67rem;
-        border: solid #e9e9e9 0.05rem;
+        border: solid 0.05rem #e9e9e9 ;
     }
     .header__mobile-top.header__logo {
         width: 8.9rem;
@@ -202,6 +203,7 @@
     .header__top {
         padding-left: 0;
         padding-right: 0;
+        justify-content: space-around;
     }
     .header__top_right {
         display: block;
@@ -236,15 +238,16 @@
     }
     .header__select {
         position: relative;
+        height: calc(100vh - 100px);
         max-height: none;
         display: flex;
         border-bottom: none;
         margin-right: 1.8rem;
-        padding: none;
+        padding: 0;
     }
     .header__select-body {
         position: absolute;
-        border: solid #e9e9e9;
+        border: solid 0.05rem #e9e9e9;
         border-top: none;
         padding: 1.1rem;
         margin-top: 3.2rem;
@@ -253,11 +256,6 @@
         background-color: white;
         top: 0;
     }
-
-
-
-
-
 }
 
 
